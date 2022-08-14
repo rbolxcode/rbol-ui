@@ -1,0 +1,14 @@
+{
+  "name": "@rbolxcode/confg-ts",
+  "version": "0.0.0",
+  "private": false,
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-library.json"
+  ]
+}

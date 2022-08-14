@@ -1,0 +1,27 @@
+{
+  "name": "@rbolxcode/rbol-ui",
+  "version": "0.0.0",
+  "private": false,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@commitlint/cli": "latest",
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "npm@7.18.1"
+}

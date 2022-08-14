@@ -1,0 +1,5 @@
+{
+  "extends": "@rbolxcode/config-ts/react-library.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@rbolxcode/ui-form",
+  "version": "0.0.0",
+  "private": false,
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "lint": "eslint *.ts*"
+  },
+  "devDependencies": {
+    "@rbolxcode/config-eslint": "*",
+    "@rbolxcode/config-ts": "*",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "eslint": "^7.32.0",
+    "react": "^17.0.2",
+    "typescript": "^4.5.2"
+  }
+}
