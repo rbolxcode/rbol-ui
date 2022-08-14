@@ -27,11 +27,6 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install Dependencies
-        run: npm install
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Ping NPM
         run: npm ping
 
@@ -39,6 +34,11 @@ jobs:
         run: |
           git config --global user.email "rbolxcode@gmail.com"
           git config --global user.name "rbolxcode"
+
+      - name: Install Dependencies
+        run: npm install
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set _auth
         run: |
